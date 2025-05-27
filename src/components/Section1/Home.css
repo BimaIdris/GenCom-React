@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.home-title{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.home-middle{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    gap: 80px;
+}
+.home-middle img{
+    width: 370px;
+    height: 370px;
+}
+.middle-left{
+    display: grid;
+    align-items: center;
+    width: 370px;
+    height: 250px;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+.middle-right{
+    display: grid;
+    align-items: center;
+    width: 370px;
+    height: 250px;
+    margin-top: 35px;
+    gap: 20px;
+}
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    height: 85px;
+    gap: 24px;
+}
+.middle-content img{
+    width: 50px;
+    height: 50px;
+}
+.middle-inner{
+    width: 285px;
+    height: 85px;
+    gap: 8px;
+}
+.middle-inner h2{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+}
+.middle-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+    color: #424153;
+}
+.home-buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-footer{
+    width: 350px;
+    height: 30px;
+    gap: 10px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: #EE6F4B;
+    cursor: pointer;
+}
+.home-buttom h3{
+    color:white;
+    text-align: center;
+    font-weight: 500;
+}
+.home-payment{
+    display: flex;
+    gap: 5px;
+}
